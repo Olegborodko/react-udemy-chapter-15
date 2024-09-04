@@ -1,0 +1,11 @@
+Ошибки которые вознимают после fetch
+
+const response = await fetch('http://localhost:3000/placess');
+if (response.ok) { //200, 300
+  
+} else { //400, 500
+  const 
+}
+
+в try catch нужно оборачивать потому-что может быть как
+ошибка в кое на сервере, так и ошибка соединения
